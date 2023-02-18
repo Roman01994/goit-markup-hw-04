@@ -381,10 +381,14 @@ address {
 .clients-list .item:not(:last-child) {
 	margin-right: 24px;
 }
-.clients-list .icon{
+ 
+ .icon{
+	color:var(--active-nav-color)
+	fill: var(--active-nav-color);
 	width: 104px;
 	height: 56px;
 }
+
 
 
 
