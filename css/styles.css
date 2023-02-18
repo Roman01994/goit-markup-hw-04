@@ -322,7 +322,7 @@ address {
 
 .possibilities-title,
 .team-title,
-.customers-title {
+.clients-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -354,14 +354,14 @@ address {
 
 /* Customers */
 
-.customers-list {
+.clients-list {
 	display: flex;
 }
-.customers-title {
+.clients-title {
 	margin-bottom: 72px;
 }
 
-.customers-list .link {
+.clients-list .link {
 	display: inline-flex;
 	border: 1px solid #8e8f99;
 	box-sizing: border-box;
@@ -372,14 +372,21 @@ address {
 	align-items: center;
 	fill: #8e8f99;
 }
-.customers-list .link:hover,
-.customers-list .link:focus {
-	fill: var(--active-nav-color);
-	border-color: var(--active-nav-color);
-	
+.clients-list .link:hover,
+.clients-list .link:focus {
+  fill: var(--active-nav-color);
+  border-color: var(--active-nav-color);
 }
-.customers-list .item:not(:last-child) {
+.clients-list .item:not(:last-child) {
 	margin-right: 24px;
+}
+.clients-list .icon {
+	width: 104px;
+	height: 56px;
+}
+.clients-list .icon:hover,
+.clients-list .icon:focus {
+	fill: var(--active-nav-color);
 }
 
 /* Footer section */
