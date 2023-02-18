@@ -381,13 +381,11 @@ address {
 	margin-right: 24px;
 }
 .clients-list .icon {
+	
 	width: 104px;
 	height: 56px;
 }
-.clients-list .icon:hover,
-.clients-list .icon:focus {
-	fill: var(--active-nav-color);
-}
+
 
 /* Footer section */
 
