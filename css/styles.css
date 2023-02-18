@@ -386,11 +386,6 @@ address {
 	height: 56px;
 }
 
- .icon:hover,
- .icon:hover{
-	fill: var(--active-nav-color);
-	
-}
 
 
 /* Footer section */
