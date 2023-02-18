@@ -372,7 +372,8 @@ address {
 	align-items: center;
 	fill: #8e8f99;
 }
-.clients-list .link:hover,
+
+.clients-list .link:hover ,
 .clients-list .link:focus {
   fill: var(--active-nav-color);
   border-color: var(--active-nav-color);
@@ -380,10 +381,15 @@ address {
 .clients-list .item:not(:last-child) {
 	margin-right: 24px;
 }
-.clients-list .icon {
-	
+.clients-list .icon{
 	width: 104px;
 	height: 56px;
+}
+
+ .icon:hover,
+ .icon:hover{
+	fill: var(--active-nav-color);
+	
 }
 
 
