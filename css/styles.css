@@ -273,18 +273,18 @@ address {
 	justify-content: center;
 }
 .icon-item .link {
-	display: inline-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
 	background-color: var(--social-icon-bg-color);
 	fill: var(--section-team-bg-color);
 }
 .icon-item .link:hover,
 .icon-item .link:focus {
+	
 	background-color: var(--active-nav-color);
 }
 
@@ -355,14 +355,14 @@ address {
 /* Customers */
 
 .customers-list {
-	display: inline-flex;
+	display: flex;
 }
 .customers-title {
 	margin-bottom: 72px;
 }
 
 .customers-list .link {
-	display: inline-block;
+	display: inline-flex;
 	border: 1px solid #8e8f99;
 	box-sizing: border-box;
 	border-radius: 4px;
@@ -376,6 +376,7 @@ address {
 .customers-list .link:focus {
 	fill: var(--active-nav-color);
 	border-color: var(--active-nav-color);
+	
 }
 .customers-list .item:not(:last-child) {
 	margin-right: 24px;
