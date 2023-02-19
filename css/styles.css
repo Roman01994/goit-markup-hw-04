@@ -11,7 +11,7 @@
 	--button-secondary-border-color: #e7e9fc;
 	--social-icon-bg-color: #4d5ae5;
 	--clients-icon-color:#8e8f99;
-	--social-list-hoher-footer:#31D0AA;
+	--social-list-hover-footer:#31D0AA;
 }
 
 /* Global styles */
@@ -440,7 +440,7 @@ address {
   }
   .social-list .link:hover,
   .social-list .link:focus {
-	background-color:var(--social-list-hoher-footer);
+	background-color:var(--social-list-hover-footer);
   }
   .footer .social-list .item:not(:last-child) {
 	margin-right: 16px;
@@ -524,7 +524,7 @@ address {
 	margin-bottom: 48px;
 }
 
-  .portfolio-list .item:hover,
+.portfolio-list .item:hover,
 .portfolio-list .item:focus {
   cursor: pointer;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
