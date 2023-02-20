@@ -71,7 +71,7 @@ ul {
 
 /* Nav Section  */
 .page {
-	border-bottom: 1px solid #e7e9fc;
+	border-bottom: 1px solid var(--footer-inf-color);
 }
 .page .container {
 	display: flex;
@@ -180,7 +180,7 @@ address {
   margin-left: auto;
   margin-right: auto;
   background-color: var(--secondary-bg-color);
-  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient( rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),
     url(../images/hero.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,7 +335,7 @@ address {
 
 .possibilities-title,
 .team-title,
-.clients-title {
+.customers-title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.1;
@@ -367,14 +367,14 @@ address {
 
 /* Customers */
 
-.clients-list {
+.customers-list {
 	display: flex;
 }
-.clients-title {
+.customers-title {
 	margin-bottom: 72px;
 }
 
-.clients-list .link {
+.customers-list .link {
 	display: inline-flex;
 	border: 1px solid var(--clients-icon-color);
 	box-sizing: border-box;
@@ -386,21 +386,21 @@ address {
 	fill: var(--clients-icon-color);
 }
 
-.clients-list .link:hover ,
-.clients-list .link:focus {
+.customers-list .link:hover ,
+.customers-list .link:focus {
   fill: var(--active-nav-color);
   border-color: var(--active-nav-color);
 }
-.clients-list .item:not(:last-child) {
+.customers-list .item:not(:last-child) {
 	margin-right: 24px;
 }
  
- .clients-list .icon{
+ .customers-list .icon{
    
 	width: 104px;
 	height: 56px;
 }
-
+/* /Customers Section */
 
 
 
@@ -531,7 +531,7 @@ address {
 
 }
 .card-content {
-	border: 1px solid #e7e9fc;
+	border: 1px solid var(--button-secondary-border-color);
 	border-top: none;
 	padding-top: 20px;
 	padding-bottom: 20px;
