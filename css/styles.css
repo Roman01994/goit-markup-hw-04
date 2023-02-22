@@ -12,6 +12,7 @@
 	--social-icon-bg-color: #4d5ae5;
 	--clients-icon-color:#8e8f99;
 	--social-list-hover-footer:#31D0AA;
+	--thumb-bg-color:#f5f4fa;
 }
 
 /* Global styles */
@@ -71,7 +72,10 @@ ul {
 
 /* Nav Section  */
 .page {
+
 	border-bottom: 1px solid var(--footer-inf-color);
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 .page .container {
 	display: flex;
@@ -233,10 +237,10 @@ address {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 270px;
-	height: 120px;
-	margin-bottom: 30px;
-	background-color: #f5f4fa;
+	width: 264px;
+	height: 112px;
+	padding-bottom: 8px;
+	background-color: var(--thumb-bg-color);
 }
 .advantages-list {
 	display: flex;
@@ -355,7 +359,7 @@ address {
 }
 
 .team-list .profession {
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 	text-align: center;
 	font-size: 16px;
 	line-height: 1.5;
@@ -395,11 +399,7 @@ address {
 	margin-right: 24px;
 }
  
- .customers-list .icon{
-   
-	width: 104px;
-	height: 56px;
-}
+
 /* /Customers Section */
 
 
@@ -454,7 +454,7 @@ address {
 }
 .footer .social-block{
 	
-	padding-left:120px;
+	margin-left:120px;
 }
   
   .social-block-title {
@@ -503,6 +503,7 @@ address {
 .portfolio .active {
 	color: var(--accent-color);
 	background-color: var(--active-nav-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio .button:hover,
@@ -526,8 +527,7 @@ address {
 
 .portfolio-list .item:hover,
 .portfolio-list .item:focus {
-  cursor: pointer;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 .card-content {
